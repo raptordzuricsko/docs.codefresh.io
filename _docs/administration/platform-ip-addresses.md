@@ -12,6 +12,11 @@ You can register multiple external clusters to the Codefresh Runner and GitOps R
 In addition, managed clusters registered to Hosted GitOps Runtimes must be configured with a set of specific IP addresses to authorize access.
 
 
+      <div class="bd-callout bd-callout-default" markdown="1">NOTE: this is an example of a note
+
+      <div class="bd-callout bd-callout-info" markdown="1">TIP: This is an example of a tip.
+
+
 ## Codefresh platform IPs (updated January 2023)
 
 All the IPs are NAT gateways, and need to enable specific IPs instead of ranges.
