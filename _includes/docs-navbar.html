@@ -8,7 +8,7 @@
     </a>
     {% if page.layout != "home" %}
     <form class="bd-search {% if page.layout == "docs" %}bd-search-docs {% endif %}d-flex mt-1 mb-1 mt-md-0 order-2 order-md-2 align-items-center">
-      <input type="search" class="form-control form-control-dark mr-sm-2 doc-search-input" id="navbar-search-input" placeholder="{{ site.data.translations[site.locale].search_placeholder_text }}" aria-label="{{ site.data.translations[site.locale].search_placeholder_text }}" autocomplete="off">
+      <input type="search" class="form-control form-control-dark mr-sm-2 doc-search-input" id="navbar-search-input" placeholder="{{ site.data.translations[site.locale].search_placeholder_text }}" aria-label="{{ site.data.translations[site.locale].search_placeholder_text }}" autocomplete="on">
       <i class="fa fa-search"></i>
       {% if page.layout == "docs" %}
       <button class="btn btn-link bd-search-docs-toggle d-md-none p-0 ml-3" type="button" data-toggle="collapse" data-target="#bd-docs-nav" aria-controls="bd-docs-nav" aria-expanded="false" aria-label="Toggle docs navigation">
