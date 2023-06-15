@@ -156,7 +156,7 @@ max-width="80%"
 Once you authorize access, Codefresh creates two Git repositories, one to store the configuration settings for GitOps Runtimes, and the other to store the Runtime's application settings:
 * Shared Configuration Repository  
   The Shared Configuration Repository is a centralized Git repository that stores configuration settings for the Hosted GitOps Runtime. Additional Hybrid runtimes provisioned for the account can point to this repo to retrieve and reuse the configuration.  
-  Read about [Shared Configuration Repositories]({{site.baseurl}}/docs/installation/gitops/shared-configuration/).
+  Read about [Shared Configuration Repository]({{site.baseurl}}/docs/installation/gitops/shared-configuration/).
 
 * Git Source application repo  
   Codefresh creates a Git Source application repo for every Hosted GitOps Runtime.  
